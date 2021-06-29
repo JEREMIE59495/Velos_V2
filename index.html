@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
+    <script   src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin=""></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Green</title>
+</head>
+<div>
+    <header class="entete col-12 ">
+        <div class="entete_title col-12 ">
+            <h1>Vélo's</h1>
+        </div>   
+    </header>
+    
+    <section id="introduction" class="col-12 justify-content-around ">
+        <div class="col-2 div_intro justify-content-around "><div class="number">1</div><div class="div_intro_texte">Je me connecte</div> </div>
+        <div class="div_intro col-2 justify-content-around"><div class="number">2</div><div class="div_intro_texte">Je reserve mon vélo</div> </div>
+        <div class="div_intro col-2 justify-content-around"><div class="number">3</div><div class="div_intro_texte">Je reserve mon garage</div> </div>
+        <div class="div_intro col-2 justify-content-around"><div class="number">4</div><div class="div_intro_texte">Je valide ma demande</div> </div>
+    </section>
+
+    <div id="popp" class=" popp"></div>
+    <div class="timer timer-primary col-10 justify-content" id='timer'></div>
+
+    <section id= "bloc_reservation" class="container-fluid bloc_map col-12">
+       <aside class="map col-9" id="map">
+        </aside>
+    </section>
+ 
+    <footer class="foot col-12 justify-content-around">
+        <p>metions légales</p>
+        <p>Confidentialité</p>
+        <p>Contact</p>
+    </footer>
+  
+    <script src="JS/main.js"></script>
+    <script src="JS/connexion.js"></script>
+    <script src="JS/reservation.js"></script>
+    <script src="JS/fonction.js"></script>
+</body>
+</html>

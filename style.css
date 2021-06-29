@@ -1,0 +1,115 @@
+body{
+    background-image: url("./images.jpg");
+    background-size: 100%;
+}
+#introduction{
+    display: flex;
+}
+
+
+
+.popp{
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 , 0.5);
+    width: 100%;
+
+    height: 100%;
+    z-index:1;
+   display:block;
+
+}
+
+
+.timer{
+    width: 50%;
+    background:white;
+    margin-top:1em;
+    margin-left:auto;
+    margin-right:auto;
+   text-align: center;
+   border-radius:0.5em;
+    
+}
+.popup{
+    width:30%;
+    background:white;
+    margin-top:12em;
+    margin-left:auto;
+    margin-right:auto;
+    opacity: 0.7;
+    border-radius:0.5em;
+    text-align: center;
+    padding:1em;
+}
+#btnValider{
+    margin-top:2em;
+    margin-left:35%;
+   
+}
+.entete{
+    display:flex;
+    height:5em;
+}
+
+.entete_title{
+    text-align: center;
+}
+
+.itineraire{
+    background:green;
+    width:100%}
+
+
+.itineraire{
+    border-radius:0.5em;
+    margin-top: 1em;
+    height:15em;
+    background: grey;
+    opacity:0.8;
+    margin-left:2em;
+    
+}
+
+.map{
+    background: white;
+    border-radius:0.5em;
+    margin-top: 1em;
+    margin-left: 2em;
+    opacity:0.8;
+    
+}
+
+.bloc_map{
+    height:28em;
+    display: flex;
+
+}
+
+.div_intro{
+    border-radius:1em;
+    height:3em;
+    background:rgb(0, 217, 255);
+    display:flex;
+}
+
+.div_intro_texte{
+    margin-top:0.6em;
+}
+
+.number{
+    margin-top:0.7em;
+    text-align: center;
+    width:1.5em;
+    height:1.5em;
+    border-radius:0.75em;
+    background:green;
+}
+
+.foot{
+    background:white;
+    padding-top:0.5em;
+    margin-top:2em;
+    display: flex;
+}
